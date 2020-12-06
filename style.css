@@ -12,9 +12,41 @@ body {
 }
 
 .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color:lightgray;
+  color:#EDEDED;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: lightgray;
+  color: #EDEDED;
+}
+
+
+/* headings main contents  */
+
+.container {
+  margin-top: 100px;
+}
+
+.box {
+  background-color: #fcfefe;
+  padding: 25px;
+}
+
+h1 {
+  color: #4aaaa5;
+  font-family: 'Castoro', "Times New Roman", Times, serif;
+  font-weight: bold;
+  line-height: 2.0;
+  border-bottom: #ededed solid 1px;
+  margin-top: -20px;
+}
+
+/* image formatting  */
+
+/* img {
+  width: 100%;
+} */
+
+/* paragraph text formatting */
+p {
+  flex-wrap: wrap;
 }
