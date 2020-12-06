@@ -7,20 +7,26 @@ body {
 .navbar-light .navbar-brand {
   background-color: #4aaaa5;
   color: #fcfefe;
-  font-family: 'Castoro', "Times New Roman", Times, serif;
+  font-family: "Castoro", "Times New Roman", Times, serif;
   font-weight: bold;
+  font-size: x-large;
 }
 
-.navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color:#EDEDED;
+.navbar-brand:focus,
+.navbar-light .navbar-brand:hover :focus :active {
+  color: #fcfefe;
+  background-color: #3a8581;
+  border-color: #3a8581;
 }
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: #EDEDED;
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #fcfefe;
+  background-color: #3a8581;
+  border-color: #3a8581;
 }
 
-
-/* headings main contents  */
+/* headings and main contents  */
 
 .container {
   margin-top: 100px;
@@ -33,9 +39,9 @@ body {
 
 h1 {
   color: #4aaaa5;
-  font-family: 'Castoro', "Times New Roman", Times, serif;
+  font-family: "Castoro", "Times New Roman", Times, serif;
   font-weight: bold;
-  line-height: 2.0;
+  line-height: 2;
   border-bottom: #ededed solid 1px;
   margin-top: -20px;
 }
@@ -49,4 +55,18 @@ h1 {
 /* paragraph text formatting */
 p {
   flex-wrap: wrap;
+}
+/* contact form submit button  */
+.btn-primary {
+  color: #fcfefe;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  font-size: large;
+  border-radius: 0px;
+  padding: 15px 30px 15px 30px;
+}
+
+.btn-primary:hover {
+  background-color: #3a8581;
+  border-color: #3a8581;
 }
