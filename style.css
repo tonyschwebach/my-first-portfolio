@@ -14,3 +14,7 @@ body {
 .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color:lightgray;
 }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: lightgray;
+}
