@@ -1,0 +1,16 @@
+/* background image  */
+body {
+  background-image: url(./assets/ignasi_pattern_s.png);
+}
+
+/* navbar formatting  */
+.navbar-light .navbar-brand {
+  background-color: #4aaaa5;
+  color: #fcfefe;
+  font-family: 'Castoro', "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color:lightgray;
+}
