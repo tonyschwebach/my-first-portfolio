@@ -1,7 +1,9 @@
 /* background image  */
 body {
   background-image: url(./assets/ignasi_pattern_s.png);
+  height: 100%;
 }
+
 
 /* navbar formatting  */
 .navbar-light .navbar-brand {
@@ -35,7 +37,7 @@ body {
 .box {
   background-color: #fcfefe;
   padding: 25px;
-  margin: 100px 15px 40px 15px;
+  margin: 100px 15px 70px 15px;
 }
 
 h1 {
@@ -62,13 +64,28 @@ h1 {
   border-color: #3a8581;
 }
 
-footer {
+
+/* sticky footer  */
+html {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+}
+
+.footer {
   text-align: center;
   color: #7d8a8b;
   background-color: #666666;
-  font-size: 12px;
   font-size: 16px;
   line-height: 3;
   border-top: #4aaaa5 solid 5px;
   width: 100%;
+  
+  /* position: absolute;
+  bottom: 0; */
+  height: 60px;
+  margin-top: -60px;
+
 }
