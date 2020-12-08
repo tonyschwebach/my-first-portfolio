@@ -4,7 +4,6 @@ body {
   height: 100%;
 }
 
-
 /* navbar formatting  */
 .navbar-light .navbar-brand {
   background-color: #4aaaa5;
@@ -29,10 +28,6 @@ body {
 }
 
 /* headings and main contents  */
-/* 
-.container {
-  margin-top: 100px;
-} */
 
 .box {
   background-color: #fcfefe;
@@ -64,7 +59,6 @@ h1 {
   border-color: #3a8581;
 }
 
-
 /* sticky footer  */
 html {
   height: 100%;
@@ -82,10 +76,7 @@ html {
   line-height: 3;
   border-top: #4aaaa5 solid 5px;
   width: 100%;
-  
-  /* position: absolute;
-  bottom: 0; */
+
   height: 60px;
   margin-top: -60px;
-
 }
