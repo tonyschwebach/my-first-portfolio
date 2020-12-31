@@ -20,6 +20,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- background picture defined in css-->
@@ -64,23 +69,37 @@
             <div class="col-12">
               <h1>Contact</h1>
             </div>
-            <h5 class="px-4 pt-4">
-              <i class="far fa-envelope"></i> Email me at
-              <a href="mailto: tony.schwebach.developer@gmail.com"
-                >tony.schwebach.developer@gmail.com</a
-              >.
-            </h5>
-            <!-- leaving personal phone number off public website
-            <h5 class="px-4 pb-4 pt-2">
-              <i class="fas fa-phone-alt"></i> Call me at
-              <a href="tel: 6055954594"
-                >(605) 595-4594</a
-              >.
-            </h5> -->
+            <ul class="list-unstyled">
+              <h6 class="px-4 pt-3 pb-3 text-wrap">
+                <i class="far fa-envelope"></i> Email me at
+                <a href="mailto: tony.schwebach.developer@gmail.com"
+                  >tony.schwebach.developer@gmail.com</a
+                >.
+              </h6>
+              <!-- leaving personal phone number off public website
+              <h6 class="px-4 pb-4">
+                <i class="fas fa-phone-alt"></i> Call me at
+                <a href="tel: 6055954594">(605) 595-4594</a>.
+              </h6> -->
+
+              <h6 class="px-4 pb-3">
+                <i class="fab fa-linkedin"></i> Connect on
+                <a href="https://www.linkedin.com/in/tonyschwebach/">LinkedIn</a
+                >.
+              </h6>
+
+              <h6 class="px-4 pb-3">
+                <i class="fab fa-github-square"></i> Follow me on 
+                <a href="https://github.com/tonyschwebach"> GitHub</a>.
+              </h6>
+            </ul>
+            
           </div>
+          <h1></h1>
           <!-- second row form  -->
           <div class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-10">  
+              <h5 class="px-2 py-3">Send a message:</h5>
               <form>
                 <div class="form-group px-3">
                   <label for="name">Name</label>
@@ -122,11 +141,7 @@
     <footer class="footer">&copy;Copyright 2020 Tony Schwebach</footer>
 
     <!-- include bootstrap javascript -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./script.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
