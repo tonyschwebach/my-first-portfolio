@@ -72,7 +72,10 @@ h1 {
 
 /* portfolio cards  */
 
-
+.card-img-top {
+  border: #ededed solid 1px;
+  /* max-height: 250px; */
+}
 a {
   color: #4aaaa5;
 }
