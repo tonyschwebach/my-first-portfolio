@@ -1,47 +1,73 @@
-# MY PORTFOLIO
+# My Portfolio
+  ![MIT License Badge](https://img.shields.io/apm/l/vim-mode)
 
---------------------------------------------------------------------------------
-## Description 
+  ## Description
+  
+  My Portfolio is a mobile first digital portfolio showcasing my work and background. It is dynamic and flexible, adapting to the screen size of the user whether it be a smartphone, table, or desktop. The page also contains a form for viewers to contact me. 
+  
+  ---
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
+  
+  ---
+  
+  ## Installation
+  
+  No installation necessary.
+  
+  URL for active webpage: [https://tonyschwebach.github.io/my-portfolio/](https://tonyschwebach.github.io/my-portfolio/)
+  
+  URL for repository: [https://github.com/tonyschwebach/my-portfolio](https://github.com/tonyschwebach/my-portfolio)
+  
+  ---
+  
+  ## Usage
+  
+  Simply visit the deployed site URL.
+  
+  ![my portfolio about me screenshot](/assets/my-portfolio.png)
+  
+  ---
+  
+  ## Credits
+  
+  Georgia Tech Coding Bootcamp instructional staff and classmates in the Georgia Tech full-time bootcamp.
+  
+  
+  ---
+  
+  ## Contributing
 
-My Portfolio is a mobile first digital portfolio showcasing my work and background. It is dynamic and flexible, adapting to the screen size of the user whether it be a smartphone, table, or desktop.
+  Not currently accepting contributions.
+  
+  ---
+  
+  ## Tests
 
-The page also contains a form for viewers to contact me. 
-
---------------------------------------------------------------------------------
-## Installation
-
-URL for active webpage: [https://tonyschwebach.github.io/my-portfolio/](https://tonyschwebach.github.io/my-portfolio/)
-
-URL for repository: [https://github.com/tonyschwebach/my-portfolio](https://github.com/tonyschwebach/my-portfolio)
-
---------------------------------------------------------------------------------
-## Usage
-
-My portfolio website is to showcase some of the projects I've completed. It is a job search tool.
-
-Code can be viewed and cloned from the GitHub repository listed above. 
-
-
-![my portfolio about me screenshot](/assets/my-portfolio.png)
-
---------------------------------------------------------------------------------
-## Credits
-
-Tutorials followed from Codecademy and Georgia Tech Coding Bootcamp instructional staff. 
-
-My classmates in the Georgia Tech full-time bootcamp.
-
-[CSS-Tricks.com](https://www.css-tricks.com)
-
-[getbootstrap.com](https://www.getbootstrap.com)
-
--------------------------------------------------------------------------
+  Not currently contributions or testing.
+  
+  ---
+  
+  ## Questions
+  
+  Please contact [tony.schwebach.developer@gmail.com](mailto:tony.schwebach.developer@gmail.com) or tonyschwebach on [Github](https://github.com/tonyschwebach/).
+   
+  ---
+  
 ## License
 
 MIT License
 
-Copyright (c) [2020] [Tony Schwebach]
-
+Copyright (c) [2021] [tonyschwebach]
+    
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -59,3 +85,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+  
